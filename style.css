@@ -1,0 +1,23 @@
+body {
+	background-image: url("images/clouds.jpg");
+}
+p {
+	font-size: 2em;
+	font-weight: bold;
+}
+.statHolder {
+	height: 200px;
+	width: 200px;
+	background-color: grey;
+}
+
+.squares {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+
+#temp, #windSt, #weather {
+	color: black;
+	font-size: 2em;
+}
